@@ -22,10 +22,10 @@ To design and implement a modular, extensible game architecture using OOP best p
 ---
 
 ## 🏗️ OOP Design Highlights
-| **Encapsulation** | Private member variables + public getters/setters        |
-| **Inheritance**   | `Enemy` → `BossEnemy`, `MinionEnemy`                     |
-| **Polymorphism**  | `attack()` behaves differently for Sword vs MagicWand    |
-| **Abstraction**   | Abstract `Enemy` and `Weapon` classes define interface   |
-| **Composition**   | `Player` HAS-A `Inventory`, `Weapon`, `Stats`            |
+- | **Encapsulation** | Private member variables + public getters/setters        |
+- | **Inheritance**   | `Enemy` → `BossEnemy`, `MinionEnemy`                     |
+- | **Polymorphism**  | `attack()` behaves differently for Sword vs MagicWand    |
+- | **Abstraction**   | Abstract `Enemy` and `Weapon` classes define interface   |
+- | **Composition**   | `Player` HAS-A `Inventory`, `Weapon`, `Stats`            |
 
 
